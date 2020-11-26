@@ -1,26 +1,17 @@
 #include <stdio.h>
 int main(void) {
   // khai bao bien a, b kieu int
-  int a; int b;
-  // khoi tao gia tri bien a,b
-  a= 3; b= 5;
-  // khai bao bien tong, hieu, thuong, tich kieu int
-  int tong; int hieu; int tich; int thuong;
-  //khoi tao gia tri bien tong, hieu, thuong, tich
-  tong= a+b; hieu= a-b; thuong= a/b; tich= a*b;
-  //hien thi bien tong ra man hinh
-  printf("tong= %d\n",a+b);
-  printf("tong= %d",a+b);
-  //hien thi bien hieu ra man hinh
-  printf("hieu= %d\n",a-b);
-  printf("hieu= %d",a-b);
-  //hien thi bien tich ra man hinh
-  printf("tich= %d\n",a*b);
-  printf("tich= %d",a*b);
-  //hien thi bien thuong ra man hinh
-  printf("thuong= %d\n",a/b);
-  double c = 3;
-  double d = 5;
-  printf("thuong = %f", c/d);
+  int a, b;
+  // khoi tao bien a = 3
+  a= 3;
+  // khoi tao bien b = 5
+  b= 5;
+  int tong, hieu, tich;
+  double thuong;
+  tong = a + b;
+  hieu = a - b;
+  tich = a * b;
+  thuong = (double)a / b;
+  printf("a + b = %d, a - b = %d, a * b = %d, a / b = %0.1f", tong, hieu, tich, thuong);
   return 0;
 }
