@@ -1,20 +1,25 @@
 #include <stdio.h>
 
-int main(void)
-{
-// khai bao bien R kieu double
-double R = 2.5 ;
-const float PI = 3.14;
-// khai bao cac bien CV,DT
-double CV,DT ;
-//khai bao CV 2*R*PI
-CV = 2*R*PI ;
-//khai bao DT R*R*PI
-DT = R*R*PI ;
-//hien thi ra man hinh chu vi va dien tich
-printf ("CV\t DT \n %0.1f %0.1f",CV ,DT);
-
-
-getchar();
-return 0;
-}
+int main (void){
+	//khai bao R kieu double va gan R=1.5
+	double R;
+		R = 1.5;
+		
+	//khai bao PI=3.14 kieu double	
+	double PI =3.14;
+	
+	//in chu vi va dien tich ra man hinh 
+	printf("Chu vi\t   Dien Tich\n");
+	
+	//khai bao VC va DT
+	double CV , DT;
+	
+	//gan VC voi cong thuc 2*R*PI va DT voi cong thuc la R*R*PI 
+	CV = 2*R*PI;
+	DT = R*R*PI;
+	
+	//in ket qua CV va DT ra man hinh
+	printf("%g\t   %g",CV,DT);
+	
+	return 0;
+}	
