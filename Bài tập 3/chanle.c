@@ -1,22 +1,16 @@
 #include <stdio.h>
-
-int main(void) {
-  int n;
-  // nhap xuat n
-  printf("Nhap n = ");
-  scanf("%d",&n);
-  // kiem tra so chan, le, bang khong
-  if(n > 0){
-    // so chan
-    if(n % 2 ==0){
-      printf("%d la so chan",n);
-    // so le
-    } else{
-      printf("%d la so le",n);
-    }
-    // bang khong
-    }else if(n==0){
-      printf("%d bang khong",n);
-    }
-  return 0;
+  
+void main(){
+    int n;
+  
+    printf("Nhap mot so: \n");
+    scanf("%d", &n);
+    if ( n == 0){
+        printf("%d bang 0 \n", n);
+    }else if ( n % 2==0){
+        printf("%d la so chan  \n", n);
+    }else
+        printf ("a la so le ");
+return 0; 
 }
+
