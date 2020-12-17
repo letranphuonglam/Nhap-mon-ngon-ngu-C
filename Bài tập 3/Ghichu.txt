@@ -1,1 +1,5 @@
+pt :là khởi tạo
+pt gán giá trị ngẫn nhiên
 
+" = " :là toán tử gán
+" == " :là so sánh hoặc quan hệ
