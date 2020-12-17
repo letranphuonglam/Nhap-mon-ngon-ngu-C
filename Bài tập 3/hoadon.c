@@ -10,12 +10,12 @@ int main(){
 	printf("Nhap gia mon hang: ");
 	scanf("%f",&dongia);
 	
-	if (soluong>=5){//kiem tra so luong mua tu 5 tro len
-		//giam gia 25% = 75/100
-		thanhtien = (dongia*soluong)*75/100;
+	if (soluong>=5){//kiem tra so luong mua >= 5 
+		//giam gia 50% = 75/100
+		thanhtien = (dongia*soluong)*500/100;
 		printf("Thanh tien: %g",thanhtien);
 	}
-	else{//so luong mua tu 5 tro len
+	else{//so luong mua tu >=5 
 		thanhtien = (dongia*soluong);
 		printf("Thanh tien: %g",thanhtien);
 	}
