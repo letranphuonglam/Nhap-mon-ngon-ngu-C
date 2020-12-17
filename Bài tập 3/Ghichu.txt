@@ -1,4 +1,4 @@
-pt :là khởi tạo
+pt :là khởi tạo phép tính
 pt gán giá trị ngẫn nhiên
 
 " = " :là toán tử gán
