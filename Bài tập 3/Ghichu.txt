@@ -3,3 +3,8 @@ pt gán giá trị ngẫn nhiên
 
 " = " :là toán tử gán
 " == " :là so sánh hoặc quan hệ
+
+
+
+printf nếu muốn hiển thị ra một hàng thì một printf thôi. Nhưng nếu cần xuất ra hai hàng thì thêm printf để ra
+mum phải không được cách ra VD:num+++
