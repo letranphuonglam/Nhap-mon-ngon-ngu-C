@@ -10,7 +10,7 @@ int main(void) {
   }
   //khai bao tong
   int tong;
-  tong= 3+5+7+2;
+  tong = tong + n[i];
   printf("%d",tong);
   
   return 0;
