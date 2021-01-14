@@ -7,8 +7,8 @@ int main(void) {
   for(i=0;i<4;i++){
   //hien thi mang ra man hinh
   printf("%d\n",n[i]);
-  //khai bao tong
   }
+  //khai bao tong
   int tong;
   tong= 3+5+7+2;
   printf("%d",tong);
