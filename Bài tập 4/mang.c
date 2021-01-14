@@ -3,10 +3,10 @@
 int main(void) {
   int i=0;
   //khai bao
-  int mark[4] = {3,5,7,2};
+  int n[4] = {3,5,7,2};
   for(i=0;i<4;i++){
   //hien thi mang ra man hinh
-  printf("%d\n",mark[i]);
+  printf("%d\n",n[i]);
   //khai bao tong
   }
   int tong;
