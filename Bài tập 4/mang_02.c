@@ -1,18 +1,28 @@
 #include <stdio.h>
-int main(void) {
+int main() {
+	//khai bao mang
   int a[100];
-  // khai bao mang a co kich thuoc 100
-  printf("")
-  scanf("%d", &n);
-  int a[n] = {0,....n};
+  int n;
   
-  for(i=0;i<4;i++){
-  printf("%d\n",n[i]);
+  do{
+  		pritnf ("Nhap vao so luong phan tu cua mang:");
+  		scanf("%d," &n);
+  }while(n<1 || n>100);
+  //Nhap du lieu
+  int a[n];
+  for (int i=0; i<n; i++){
+  	printf ("%d =", i);
+  	scanf("%d", &a[i]);
+	}
+  //xuatdu lieu
+  pritnf("mang vua nhap lai:");
+  for(int i=0; i<n;i++){
+    pritnf ("&d", a[i]);
   }
-  //khai bao tong
-  int tong;
-  tong = tong + n[i];
-  printf("%d",tong);
   
-  return 0;
-}
+  int tong = 0;
+  for(int i=0; i<n; i++){
+    tong+=a[i];
+  }
+  pritnf("\nTong = %d", tong);
+}	
