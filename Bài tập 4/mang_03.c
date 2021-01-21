@@ -21,7 +21,7 @@ void main(){
 	}
 		printf("\n\n");
 
-	//Hien thi tong cac so phan tu mang a
+	//Hien thi tong cac so phan tu mang
 	int count_odd=0,count_even=0,count_0=0;
 	for (b=0; b<n; b++){
 		if (a[b]%2 != 0){
