@@ -6,7 +6,7 @@ int main () {
   //Khai bao bien c de tinh tong
   int tong = 0;
       //xuat dong chu nhap kich thuoc mang
-  		printf("\nNhap kich thuoc mang:");
+  		printf("Nhap kich thuoc mang:");
   		scanf("\n%d", &n);
       //xuat dong chu Nhap so phan tu ra man hinh
       	printf("\nNhap so phan tu:");
