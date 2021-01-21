@@ -17,7 +17,7 @@ void main(){
 	//xuat tat ca phan tu cua mang
 	printf("\nMang a ");
 	for (b=0;b<n;b++){
-		printf("\n%d", a[b]);
+		printf(" %d ", a[b]);
 	}
 		printf("\n\n");
 
