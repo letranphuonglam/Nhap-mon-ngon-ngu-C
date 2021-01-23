@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(){
+int main(){
 	//Khai bao bien a mang kich thuoc 100 (0<n<=100)
 	int b,n;
 	printf("Nhap so luong phan tu: ");
