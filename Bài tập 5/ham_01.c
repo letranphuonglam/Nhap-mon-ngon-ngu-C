@@ -1,20 +1,24 @@
+
 // Khoi khai bao
 #include <stdio.h>
-int sum(int x, int y, int z);
+void sum(int a, int b, int c);
+int tong (int a, int b, int c);
+
 //Khoi ham main
 int main(){
-	int x,y,z;
-	printf("Nhap so x: ");
-		scanf("%d",&x);
-	printf("\nNhap so y: ");
-		scanf("%d",&y);
-	printf("\nNhap so z: ");
-		scanf("%d",&z);
-	
-	printf("%d",Sum(x,y,z));
+	int x=1,y=3,z=2;
+  sum (x,y,z);//goi ham sum
+  int s = tong(x,y,z);
+  printf ("Tong: %d", s);
 	return 0;
 }
-//khoi dinh nghia ham
-int Sum(int x, int y, int z){
-	return x+y+z;
+
+// khoi dinh nghia
+void sum(int a, int b, int c){
+  int tong = a + b + c;
+  printf ("Tong: %d",tong);
+}
+int tong (int a, int b, int c){
+ int t = a+b+c;
+ return t;
 }
