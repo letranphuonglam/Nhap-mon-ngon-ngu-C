@@ -2,13 +2,12 @@
 
 int main(){
 	//Khai bao bien a mang kich thuoc 100 (0<n<=100)
+  int a[100];
 	int b,n;
 	printf("Nhap so luong phan tu: ");
 	scanf("%d",&n);
 	
 	// Nhap cac phan tu
-	int a[n];
-	
 	for (b=0;b<n;b++){
 		printf("Nhap phan tu thu %d: ", b+1);
 		scanf("%d",&a[b]);
