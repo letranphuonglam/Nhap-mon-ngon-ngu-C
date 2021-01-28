@@ -1,9 +1,9 @@
-Phần
+a. khái  
   +Biến là một ô nhớ lưu trữ dữ liệu và có thể được thay đổi trong chương trình
   +cú pháp khai báo biến: 
     +kiểu_dữ_liệu tên_biến
 d.Biến toàn cục và biến cục bộ
-  +Biến toàn cục được khai báo bên ngoài tất cả  các hàm kể cả hàm main và có thể được sử dụng tại mọi vị trí trong chương trình
+  +Biến toàn cục được khai báo bên ngoài tất cả  các hàm kể cả hàm main và có thể được sử dụng tại mọi vị trí trong chương trì
   +Biến cục bộ được khai báo trong một hàm, khối lệnh thì chỉ có thể được sử dụng trong hàm, khối lệnh đó
 e.Khái niệm, phân loại hàm
   +Hàm là một khối lệnh thực hiện một nhiệm vụ cụ thể nào đó, 
