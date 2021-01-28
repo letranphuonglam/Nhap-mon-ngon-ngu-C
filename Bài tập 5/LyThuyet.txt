@@ -1,4 +1,4 @@
-c.Khái Niệm, cú pháp khai báo biến trong C
+Phần
   +Biến là một ô nhớ lưu trữ dữ liệu và có thể được thay đổi trong chương trình
   +cú pháp khai báo biến: 
     +kiểu_dữ_liệu tên_biến
