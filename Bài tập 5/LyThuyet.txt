@@ -1,7 +1,8 @@
-
+PHẦN 1 : KIẾN THỨC 
+                       Bài Làm
 a) Khái niệm : Biến là một ô nhớ lưu trữ dữ liệu và có thể được thay đổi trong chương trình
 - Cú pháp khai báo biến là :
- kieudulieu tenbien; 
+ kieudulieu tenbien;
  hay  kieudulieu tenbien = giatri;
  VD: int(là kieuduieu) a (là tenbien có thể số hoặc chữ tùy người lập trình đặt) = 1 (là giá trị);
 
